@@ -1,0 +1,48 @@
+.landing_page {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d6ebde;
+    height: 100vh;
+}
+
+.goose {
+    position: absolute;
+    display: flex;
+    margin: auto;
+}
+
+.landing_text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    margin: 50vh auto 10vh auto;
+    width: auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.landing_title h5 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.landing_title h5 span {
+    color: #0d7936;
+    font-style: italic;
+}
+
+.landing_subtitle h2 {
+    margin: 4px;
+    font-size: rem;
+    font-weight: 400;
+}
+
+.landing_content h6 {
+    margin: 32px;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 400;
+}

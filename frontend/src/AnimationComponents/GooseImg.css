@@ -1,0 +1,20 @@
+.goose_img {
+    position: relative;
+}
+
+.top, .right {
+    display: inline-block;
+}
+
+.right {
+    width: 10vw;
+    margin-top: 30vh;
+    margin-right: 30vw;
+    z-index: 10;
+}
+
+.top {
+    width: 10vw;
+    margin-top: 24vh;
+    margin-left: 32vw;
+}
