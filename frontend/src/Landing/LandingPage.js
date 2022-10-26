@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 import Lottie from "react-lottie";
 import GooseImg from "../AnimationComponents/GooseImg";
 
@@ -10,6 +11,11 @@ import "./LandingPage.css";
 import { motion } from "framer-motion";
 
 const LandingPage = () => {
+  const navigate = useNavigate();
+  const navigateToHome = () => {
+    navigate('/home');
+  }
+
   const fadeInUp = {
     initial: {
       y: 100,
@@ -67,7 +73,7 @@ const LandingPage = () => {
           <div className="landing_content">
             <h6>A place to ask and do a little favor</h6>
           </div>
-          <div>
+          <div onClick={navigateToHome}>
             <Lottie options={animationOptions} height={80} width={80} />
           </div>
         </motion.div>
