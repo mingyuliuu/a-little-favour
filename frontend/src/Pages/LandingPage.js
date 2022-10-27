@@ -7,7 +7,7 @@ import gooseR from "../assets/gooseR.jpg";
 import gooseT from "../assets/gooseT.jpg";
 import arrowAnimation from "../assets/Lottie/arrowUp.json";
 
-import "./LandingPage.css";
+import "../Styles/LandingPage.css";
 import { motion } from "framer-motion";
 
 const LandingPage = () => {

@@ -2,8 +2,8 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import LandingPage from "./Landing/LandingPage";
-import HomePage from "./Home/HomePage";
+import LandingPage from "./Pages/LandingPage";
+import HomePage from "./Pages/HomePage";
 
 const App = () => (
   <BrowserRouter>
